@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,130 +8,162 @@
     <link rel="stylesheet" href="./src/output.css">
     <link rel="stylesheet" href="./sec1.css">
 </head>
+
 <body>
-    <header class="sec1">
-        <nav class="w-[72%] m-auto pt-8">
-            <div class="flex justify-between items-center">
-                <img class="w-[118px] h--[30px]" src="./images/Physionic.png" alt="">
-                <div class="flex gap-10">
-                    <p class="text-[14px] text-white">Home</p>
-                    <p class="text-[14px] text-white">Product</p>
-                    <p class="text-[14px] text-white">Pricing</p>
-                    <p class="text-[14px] text-white">Contact</p>
+    <header class="sec1 bg-[url('bg(2).png')] lg:bg-[url('bg.png')] lg:w-full w-[414px] lg:h-[817px] h-[1801px] lg:bg-cover bg-no-repeat">
+        <nav class="lg:w-[72%] w-full m-auto lg:pt-8 ">
+            <div class="lg:flex  justify-between items-center hidden ">
+                <img class="w-[118px] h-[27px]" src="./images/Physionic.png" alt="">
+                <div class="flex  gap-10">
+                    <p class="text-[14px] text-white ">Home</p>
+                    <p class="text-[14px] text-white ">Product</p>
+                    <p class="text-[14px] text-white ">Pricing</p>
+                    <p class="text-[14px] text-white ">Contact</p>
                 </div>
                 <button class="w-48 h-[52px] rounded-[5px] bg-[#23A6F0] text-white">Get Quote Now -></button>
             </div>
+            <div class="bg-[#F6F6F6] w-[414px] h-[532px] m-0 lg:hidden">
+                <div class="flex justify-around pt-6">
+                    <img src="./images/Physionic (1).png" alt="">
+                    <div class="flex gap-5">
+                        <img class="w-6 h-6" src="./images/icn search .icn-xs.png" alt="">
+                        <img class="w-6 h-[22px]" src="./images/icn shopping-cart .icn-xs.png" alt="">
+                        <img class="w-6 h-[13px]" src="./images/icn menu .icn-xs.png" alt="">
+
+                    </div>
+                </div>
+                <div class=" lg:flex text-center mt-18  gap-10">
+                    <p class="text-[30px]  text-[#737373] mb-3">Home</p>
+                    <p class="text-[30px]  text-[#737373] mb-3">Product</p>
+                    <p class="text-[30px]  text-[#737373] mb-3">Pricing</p>
+                    <p class="text-[30px]  text-[#737373]">Contact</p>
+                </div>
+
+            </div>
 
         </nav>
-        <div class="w-[72%] m-auto flex justify-between items-center mt-12">
-            <div>
+
+        <div class="w-[72%] m-auto lg:flex justify-between items-center mt-12 ">
+            <div class="lg:mb-0 mb-5">
                 <h1 class="text-[58px] text-white font-extrabold mb-6">Meet the Best <br>
                     Hospital</h1>
-                    <p class="text-[20px] text-white font-medium mb-5">We know how large objects will act, <br> 
-                     but things on a small scale.</p>
-                     <div class="flex gap-3 ">
-                        <button class="w-[185px] h-[52px] rounded-[37px] text-white bg-[#23A6F0]">Get Quote Now</button>
-                        <button class="w-[154px] h-[52px] rounded-[37px] text-white border border-white">Learn More</button>
-                     </div>
+                <p class="text-[20px] text-white font-medium mb-5">We know how large objects will act, <br>
+                    but things on a small scale.</p>
+                <div class="flex gap-3 ">
+                    <button class="w-[185px] h-[52px] rounded-[37px] text-white bg-[#23A6F0]">Get Quote Now</button>
+                    <button class="w-[154px] h-[52px] rounded-[37px] text-white border border-white">Learn More</button>
+                </div>
             </div>
             <div class="w-[328px] h-[610px] rounded-[10px] p-10 bg-white">
                 <h1 class="text-2xl font-bold mb-6">Book Appointment</h1>
                 <div>
                     <form action="">
-                    <label for="name">Name *</label>
-                    <input class="w-[246px] h-[50px] rounded-[5px] border border-[#E6E6E6] bg-[#F9F9F9] p-3  mt-3 mb-3" id="name" type="text" placeholder="Full Name * ">
-                     <label for="name">Email address *</label>
-                    <input class="w-[246px] h-[50px] rounded-[5px] border border-[#E6E6E6] bg-[#F9F9F9] p-3  mt-3 mb-3" id="name" type="email" placeholder="example@gmail.com   ">
+                        <label for="name">Name *</label>
+                        <input
+                            class="w-[246px] h-[50px] rounded-[5px] border border-[#E6E6E6] bg-[#F9F9F9] p-3  mt-3 mb-3"
+                            id="name" type="text" placeholder="Full Name * ">
+                        <label for="name">Email address *</label>
+                        <input
+                            class="w-[246px] h-[50px] rounded-[5px] border border-[#E6E6E6] bg-[#F9F9F9] p-3  mt-3 mb-3"
+                            id="name" type="email" placeholder="example@gmail.com   ">
 
 
-                     <label for="name">Departement *</label>
-                     <select class="w-[248px] h-[50px] rounded-[5px] border border-[#E6E6E6] bg-[#F9F9F9] p-3 mt-3 mb-3" name="" id="">
-                        <option value="">Please Select</option>
-                        <option value="">Please Select</option>
-                        <option value="">Please Select</option>
-                     </select>
+                        <label for="name">Departement *</label>
+                        <select
+                            class="w-[248px] h-[50px] rounded-[5px] border border-[#E6E6E6] bg-[#F9F9F9] p-3 mt-3 mb-3"
+                            name="" id="">
+                            <option value="">Please Select</option>
+                            <option value="">Please Select</option>
+                            <option value="">Please Select</option>
+                        </select>
 
-                     <label for="name">Time *</label>
-                     <select class="w-[248px] h-[50px] rounded-[5px] border border-[#E6E6E6] bg-[#F9F9F9] p-3 mt-3 mb-3" name="" id="">
-                        <option value="">4:00 Availablev</option>
-                        <option value="">4:00 Available</option>
-                        <option value="">4:00 Available</option>
-                     </select>
-                     
-                   
-                    
+                        <label for="name">Time *</label>
+                        <select
+                            class="w-[248px] h-[50px] rounded-[5px] border border-[#E6E6E6] bg-[#F9F9F9] p-3 mt-3 mb-3"
+                            name="" id="">
+                            <option value="">4:00 Availablev</option>
+                            <option value="">4:00 Available</option>
+                            <option value="">4:00 Available</option>
+                        </select>
+
+
+
 
                     </form>
-                    <button class="w-[248px] h-[50px] rounded-[5px] text-white  bg-[#23A6F0] p-3 mt-5"> Book Appointment</button>
+                    <button class="w-[248px] h-[50px] rounded-[5px] text-white  bg-[#23A6F0] p-3 mt-5"> Book
+                        Appointment</button>
                 </div>
 
             </div>
         </div>
     </header>
     <section class="sec2">
-        <div class="mt-12">
-          <h1 class="font-bold text-[40px] text-center mb-5">Leading Medicine</h1>
-          <p class="font-medium text-[14px] text-center mb-18">Problems trying to resolve the conflict between  <br>
-            the two major realms of Classical physics: Newtonian mechanics </p>
-            <div class="w-[72%] m-auto flex justify-between">
-                <div class="w-[328px] h-[385px] rounded-[10px]">
+        <div class="mt-12 lg:pl-0 pl-4">
+            <div class="w-full  ">
+                <h1 class="font-bold text-[40px] text-center mb-5">Leading Medicine</h1>
+                <p class="font-medium text-[14px] text-center mb-18">Problems trying to resolve the conflict between
+                    <br>
+                    the two major realms of Classical physics: Newtonian mechanics </p>
+            </div>
+            <div class="lg:w-[72%]  w-full m-auto lg:flex flex-wrap justify-between">
+                <div class="w-[328px] h-[385px] rounded-[10px] lg:mb-0 mb-6">
                     <div class="w-[329px] h-[132px] bg-[#8EC2F2] flex gap-10 items-center p-5">
                         <img class="w-[72px] h-[72px]" src="./images/icn-circle circle-md (1).png" alt="">
                         <p class="font-bold text-[16px] text-white">Emergency Case</p>
 
                     </div>
                     <div class="w-[328px] h-[253px] rounded-[11px] border border-[#A9D6FF] p-8">
-                        <p class="font-semibold text-[14px]">-  The best products start <br>
-                          with Figma</p>
-                          <p class="font-semibold text-[14px] mb-3"> - Design with real data</p>
-                          <p class="font-semibold text-[14px] mb-3">- Lightning fast prototyping</p>
-                          <p class="font-semibold text-[14px] mb-3">- Fastest way to organize</p>
-                          <p class="font-semibold text-[14px] mb-3">- Work at the speed of thought.</p>
-                          <p class="font-semibold text-[14px] text-[#23A6F0]"> Learn More</p>
-                          
-                          
+                        <p class="font-semibold text-[14px]">- The best products start <br>
+                            with Figma</p>
+                        <p class="font-semibold text-[14px] mb-3"> - Design with real data</p>
+                        <p class="font-semibold text-[14px] mb-3">- Lightning fast prototyping</p>
+                        <p class="font-semibold text-[14px] mb-3">- Fastest way to organize</p>
+                        <p class="font-semibold text-[14px] mb-3">- Work at the speed of thought.</p>
+                        <p class="font-semibold text-[14px] text-[#23A6F0]"> Learn More</p>
+
+
 
 
                     </div>
 
                 </div>
-                  <div class="w-[328px] h-[385px] rounded-[10px]">
+                <div class="w-[328px] h-[385px] rounded-[10px] lg:mb-0 mb-6">
                     <div class="w-[329px] h-[132px] bg-[#8EC2F2] flex gap-10 items-center p-5">
                         <img class="w-[72px] h-[72px]" src="./images/icn-circle circle-md (1).png" alt="">
                         <p class="font-bold text-[16px] text-white">Emergency Case</p>
 
                     </div>
                     <div class="w-[328px] h-[253px] rounded-[11px] border border-[#A9D6FF] p-8">
-                        <p class="font-semibold text-[14px]">-  The best products start <br>
-                          with Figma</p>
-                          <p class="font-semibold text-[14px] mb-3"> - Design with real data</p>
-                          <p class="font-semibold text-[14px] mb-3">- Lightning fast prototyping</p>
-                          <p class="font-semibold text-[14px] mb-3">- Fastest way to organize</p>
-                          <p class="font-semibold text-[14px] mb-3">- Work at the speed of thought.</p>
-                          <p class="font-semibold text-[14px] text-[#23A6F0]"> Learn More</p>
-                          
-                          
+                        <p class="font-semibold text-[14px]">- The best products start <br>
+                            with Figma</p>
+                        <p class="font-semibold text-[14px] mb-3"> - Design with real data</p>
+                        <p class="font-semibold text-[14px] mb-3">- Lightning fast prototyping</p>
+                        <p class="font-semibold text-[14px] mb-3">- Fastest way to organize</p>
+                        <p class="font-semibold text-[14px] mb-3">- Work at the speed of thought.</p>
+                        <p class="font-semibold text-[14px] text-[#23A6F0]"> Learn More</p>
+
+
 
 
                     </div>
 
                 </div>
-                  <div class="w-[328px] h-[385px] rounded-[10px]">
+                <div class="w-[328px] h-[385px] rounded-[10px] lg:mb-0 mb-6">
                     <div class="w-[329px] h-[132px] bg-[#8EC2F2] flex gap-10 items-center p-5">
                         <img class="w-[72px] h-[72px]" src="./images/icn-circle circle-md (1).png" alt="">
                         <p class="font-bold text-[16px] text-white">Emergency Case</p>
 
                     </div>
                     <div class="w-[328px] h-[253px] rounded-[11px] border border-[#A9D6FF] p-8">
-                        <p class="font-semibold text-[14px]">-  The best products start <br>
-                          with Figma</p>
-                          <p class="font-semibold text-[14px] mb-3"> - Design with real data</p>
-                          <p class="font-semibold text-[14px] mb-3">- Lightning fast prototyping</p>
-                          <p class="font-semibold text-[14px] mb-3">- Fastest way to organize</p>
-                          <p class="font-semibold text-[14px] mb-3">- Work at the speed of thought.</p>
-                          <p class="font-semibold text-[14px] text-[#23A6F0]"> Learn More</p>
-                          
-                          
+                        <p class="font-semibold text-[14px]">- The best products start <br>
+                            with Figma</p>
+                        <p class="font-semibold text-[14px] mb-3"> - Design with real data</p>
+                        <p class="font-semibold text-[14px] mb-3">- Lightning fast prototyping</p>
+                        <p class="font-semibold text-[14px] mb-3">- Fastest way to organize</p>
+                        <p class="font-semibold text-[14px] mb-3">- Work at the speed of thought.</p>
+                        <p class="font-semibold text-[14px] text-[#23A6F0]"> Learn More</p>
+
+
 
 
                     </div>
@@ -141,34 +174,37 @@
         </div>
     </section>
     <section class="sec3">
-        <div class="w-full h-[655px] bg-[#FAFAFA] mt-20">
-             <h1 class="font-bold text-[40px] text-center mb-5 pt-18">Leading Medicine</h1>
-          <p class="font-medium text-[14px] text-center mb-18">Problems trying to resolve the conflict between  <br>
-            the two major realms of Classical physics: Newtonian mechanics </p>
-            <div class=" w-[72%] m-auto flex justify-between mt-24">
-                <div class="w-[327px] h-[244px] rounded-[5px] bg-white border border-[#DEDEDE] p-7">
+        <div class="w-full lg:h-[655px] h-auto bg-[#FAFAFA] mt-20">
+            <h1 class="font-bold text-[40px] text-center mb-5 pt-18">Leading Medicine</h1>
+            <p class="font-medium text-[14px] text-center mb-18">Problems trying to resolve the conflict between <br>
+                the two major realms of Classical physics: Newtonian mechanics </p>
+            <div class=" lg:w-[72%] w-full m-auto lg:flex justify-between mt-24 ">
+                <div
+                    class="lg:w-[327px] w-full h-[244px] rounded-[5px] bg-white border border-[#DEDEDE] p-7 lg:mb-0 mb-3">
                     <img src="./images/stars (1).png" alt="">
-                    <p class="mt-3 mb-5">Slate helps you see how many <br>
-                       more days you need to work to <br>
-                       reach your financial goal.</p>
-                       <img src="./images/media circle-box xs-circle (1).png" alt="">
+                    <p class="mt-3 mb-5 text-[14px] font-semibold">Slate helps you see how many <br>
+                        more days you need to work to <br>
+                        reach your financial goal.</p>
+                    <img src="./images/media circle-box xs-circle (1).png" alt="">
 
                 </div>
 
-                 <div class="w-[327px] h-[244px] rounded-[5px] bg-white border border-[#DEDEDE] p-7">
+                <div
+                    class="lg:w-[327px] w-full h-[244px] rounded-[5px] bg-white border border-[#DEDEDE] p-7 lg:mb-0 mb-3">
                     <img src="./images/stars (1).png" alt="">
-                    <p class="mt-3 mb-5">Slate helps you see how many <br>
-                       more days you need to work to <br>
-                       reach your financial goal.</p>
-                       <img src="./images/media circle-box xs-circle (2).png" alt="">
+                    <p class="mt-3 mb-5 text-[14px] font-semibold">Slate helps you see how many <br>
+                        more days you need to work to <br>
+                        reach your financial goal.</p>
+                    <img src="./images/media circle-box xs-circle (2).png" alt="">
 
                 </div>
-                 <div class="w-[327px] h-[244px] rounded-[5px] bg-white border border-[#DEDEDE] p-7">
+                <div
+                    class="lg:w-[327px] w-full h-[244px] rounded-[5px] bg-white border border-[#DEDEDE] p-7 lg:mb-0 mb-3">
                     <img src="./images/stars (1).png" alt="">
-                    <p class="mt-3 mb-5">Slate helps you see how many <br>
-                       more days you need to work to <br>
-                       reach your financial goal.</p>
-                       <img src="./images/media circle-box xs-circle (3).png" alt="">
+                    <p class="mt-3 mb-5 text-[14px] font-semibold">Slate helps you see how many <br>
+                        more days you need to work to <br>
+                        reach your financial goal.</p>
+                    <img src="./images/media circle-box xs-circle (3).png" alt="">
 
                 </div>
 
@@ -178,103 +214,103 @@
         </div>
     </section>
     <section class="sec4">
-        <div class="w-full h-[920px] bg-[#FAFAFA] ">
-             <h1 class="font-bold text-[40px] text-center mb-5 pt-18">FAQ</h1>
-             <p class="font-medium text-[14px] text-center mb-18">Problems trying to resolve the conflict between  <br>
-            the two major realms of Classical physics: Newtonian mechanics </p>
-            <div class="w-[72%] m-auto flex justify-between mb-7">
-                <div class="w-[333px] h-[151px] bg-white rounded-[9px] p-6">
+        <div class="w-full lg:h-[920px] h-auto bg-[#FAFAFA] ">
+            <h1 class="font-bold text-[40px] text-center mb-5 pt-18">FAQ</h1>
+            <p class="font-medium text-[14px] text-center mb-18">Problems trying to resolve the conflict between <br>
+                the two major realms of Classical physics: Newtonian mechanics </p>
+            <div class="w-[72%] m-auto lg:flex justify-between mb-7">
+                <div class="lg:w-[333px] w-full h-[151px] bg-white rounded-[9px] p-6 lg:mb-0 mb-5">
                     <div class="flex">
-                     <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
-                    <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
-                       lazy dog</p>
+                        <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
+                        <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
+                            lazy dog</p>
                     </div>
-                    
-                       <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
+
+                    <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
                         behave like nothing </p>
                 </div>
-                <div class="w-[333px] h-[151px] bg-white rounded-[9px] p-6">
+                <div class="lg:w-[333px] w-full h-[151px] bg-white rounded-[9px] p-6 lg:mb-0 mb-5">
                     <div class="flex">
-                     <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
-                    <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
-                       lazy dog</p>
+                        <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
+                        <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
+                            lazy dog</p>
                     </div>
-                    
-                       <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
+
+                    <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
                         behave like nothing </p>
                 </div>
-                <div class="w-[333px] h-[151px] bg-white rounded-[9px] p-6">
+                <div class="lg:w-[333px] w-full h-[151px] bg-white rounded-[9px] p-6">
                     <div class="flex">
-                     <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
-                    <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
-                       lazy dog</p>
+                        <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
+                        <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
+                            lazy dog</p>
                     </div>
-                    
-                       <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
-                        behave like nothing </p>
-                </div>
-            </div>
-              <div class="w-[72%] m-auto flex justify-between mb-7">
-                <div class="w-[333px] h-[151px] bg-white rounded-[9px] p-6">
-                    <div class="flex">
-                     <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
-                    <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
-                       lazy dog</p>
-                    </div>
-                    
-                       <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
-                        behave like nothing </p>
-                </div>
-                <div class="w-[333px] h-[151px] bg-white rounded-[9px] p-6">
-                    <div class="flex">
-                     <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
-                    <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
-                       lazy dog</p>
-                    </div>
-                    
-                       <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
-                        behave like nothing </p>
-                </div>
-                <div class="w-[333px] h-[151px] bg-white rounded-[9px] p-6">
-                    <div class="flex">
-                     <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
-                    <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
-                       lazy dog</p>
-                    </div>
-                    
-                       <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
+
+                    <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
                         behave like nothing </p>
                 </div>
             </div>
-              <div class="w-[72%] m-auto flex justify-between">
-                <div class="w-[333px] h-[151px] bg-white rounded-[9px] p-6">
+            <div class="w-[72%] m-auto lg:flex justify-between mb-7">
+                <div class="lg:w-[333px] w-full h-[151px] bg-white rounded-[9px] p-6 lg:mb-0 mb-5">
                     <div class="flex">
-                     <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
-                    <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
-                       lazy dog</p>
+                        <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
+                        <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
+                            lazy dog</p>
                     </div>
-                    
-                       <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
+
+                    <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
                         behave like nothing </p>
                 </div>
-                <div class="w-[333px] h-[151px] bg-white rounded-[9px] p-6">
+                <div class="lg:w-[333px] w-full h-[151px] bg-white rounded-[9px] p-6 lg:mb-0 mb-5">
                     <div class="flex">
-                     <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
-                    <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
-                       lazy dog</p>
+                        <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
+                        <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
+                            lazy dog</p>
                     </div>
-                    
-                       <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
+
+                    <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
                         behave like nothing </p>
                 </div>
-                <div class="w-[333px] h-[151px] bg-white rounded-[9px] p-6">
+                <div class="lg:w-[333px] w-full h-[151px] bg-white rounded-[9px] p-6">
                     <div class="flex">
-                     <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
-                    <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
-                       lazy dog</p>
+                        <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
+                        <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
+                            lazy dog</p>
                     </div>
-                    
-                       <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
+
+                    <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
+                        behave like nothing </p>
+                </div>
+            </div>
+            <div class="w-[72%] m-auto lg:flex justify-between">
+                <div class="lg:w-[333px] w-full h-[151px] bg-white rounded-[9px] p-6 lg:mb-0 mb-5">
+                    <div class="flex">
+                        <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
+                        <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
+                            lazy dog</p>
+                    </div>
+
+                    <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
+                        behave like nothing </p>
+                </div>
+                <div class="lg:w-[333px] w-full h-[151px] bg-white rounded-[9px] p-6 lg:mb-0 mb-5">
+                    <div class="flex">
+                        <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
+                        <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
+                            lazy dog</p>
+                    </div>
+
+                    <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
+                        behave like nothing </p>
+                </div>
+                <div class="lg:w-[333px] w-fullh-[151px] bg-white rounded-[9px] p-6">
+                    <div class="flex">
+                        <img class="w-2 h-4" src="/images/icn arrow-right icn-xs.png" alt="">
+                        <p class="text-[16px] font-bold pl-5">the quick fox jumps over the <br>
+                            lazy dog</p>
+                    </div>
+
+                    <p class="text-[#737373] text-[14px] font-semibold pl-7">Things on a very small scale <br>
                         behave like nothing </p>
                 </div>
             </div>
@@ -282,176 +318,181 @@
         </div>
     </section>
     <section class="sec5">
-        <div class="w-full h-[1116px] bg-[#FAFAFA]">
+        <div class="w-full lg:h-[1116px] h-auto bg-[#FAFAFA]">
             <h1 class="font-bold text-[40px] text-center mb-5 pt-18">Pricing</h1>
-             <p class="font-medium text-[14px] text-center mb-18">Problems trying to resolve the conflict between  <br>
-            the two major realms of Classical physics: Newtonian mechanics </p>
-            <div class="w-[66%] m-auto flex justify-between items-end">
-                <div class="w-[327px] h-[665px] p-10 rounded-[10px] bg-white border border-[#23A6F0]">
+            <p class="font-medium text-[14px] text-center mb-18">Problems trying to resolve the conflict between <br>
+                the two major realms of Classical physics: Newtonian mechanics </p>
+            <div class=" lg:w-[66%] w-full m-auto lg:flex justify-between items-end lg:pl-0 pl-4">
+                <div class="w-[327px] h-[665px] p-10 rounded-[10px] bg-white border border-[#23A6F0] lg:mb-0 mb-5">
                     <h1 class="text-2xl font-bold  text-center mb-6">FREE</h1>
                     <p class="font-bold text-[16px] text-[#737373]  text-center mb-7">Organize across all <br>
                         apps by hand</p>
-                        <div>
-                            <div class="flex gap-6 items-center justify-center">
-                                <h1 class="text-[40px] font-bold text-[#23A6F0]">0</h1>
-                                <div>
-                                    <p class="text-[16px] text-[#23A6F0] font-semibold">$</p>
-                                    <p class="text-[16px] text-[#8EC2F2] font-semibold">Per Month</p>
+                    <div>
+                        <div class="flex gap-6 items-center justify-center">
+                            <h1 class="text-[40px] font-bold text-[#23A6F0]">0</h1>
+                            <div>
+                                <p class="text-[16px] text-[#23A6F0] font-semibold">$</p>
+                                <p class="text-[16px] text-[#8EC2F2] font-semibold">Per Month</p>
 
-                                </div>
                             </div>
-                            <div class="flex gap-4 items-center mb-5">
-                                <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
-                                <p class="text-[14px] font-semibold">Unlimited product updates</p>
-                            </div>
-                             <div class="flex gap-4 items-center mb-5">
-                                <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
-                                <p class="text-[14px] font-semibold">Unlimited product updates</p>
-                            </div> 
-                             <div class="flex gap-4 items-center mb-5">
-                                <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
-                                <p class="text-[14px] font-semibold">Unlimited product updates</p>
-                            </div>
-                             <div class="flex gap-4 items-center mb-5">
-                                <img src="./images/icn-circle circle-xs mute.png" alt="">
-                                <p class="text-[14px] font-semibold">1GB  Cloud storage</p>
-                            </div>
-                             <div class="flex gap-4 items-center">
-                                <img src="./images/icn-circle circle-xs mute.png" alt="">
-                                <p class="text-[14px] font-semibold">Email and community <br>
-                                    support</p>
-                            </div>
-                            <button class="w-[246px] h-[52px] rounded-[5px] text-white bg-[#23A6F0] mt-8">Try for free</button>
                         </div>
+                        <div class="flex gap-4 items-center mb-5">
+                            <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
+                            <p class="text-[14px] font-semibold">Unlimited product updates</p>
+                        </div>
+                        <div class="flex gap-4 items-center mb-5">
+                            <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
+                            <p class="text-[14px] font-semibold">Unlimited product updates</p>
+                        </div>
+                        <div class="flex gap-4 items-center mb-5">
+                            <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
+                            <p class="text-[14px] font-semibold">Unlimited product updates</p>
+                        </div>
+                        <div class="flex gap-4 items-center mb-5">
+                            <img src="./images/icn-circle circle-xs mute.png" alt="">
+                            <p class="text-[14px] font-semibold">1GB Cloud storage</p>
+                        </div>
+                        <div class="flex gap-4 items-center">
+                            <img src="./images/icn-circle circle-xs mute.png" alt="">
+                            <p class="text-[14px] font-semibold">Email and community <br>
+                                support</p>
+                        </div>
+                        <button class="w-[246px] h-[52px] rounded-[5px] text-white bg-[#23A6F0] mt-8">Try for
+                            free</button>
+                    </div>
 
                 </div>
-                 <div class="w-[327px] h-[705px] p-10 rounded-[10px] bg-[#252B42] border border-[#23A6F0]">
+                <div class="w-[327px] h-[705px] p-10 rounded-[10px] bg-[#252B42] border border-[#23A6F0] lg:mb-0 mb-5">
                     <h1 class="text-2xl font-bold text-white  text-center mb-6">STANDARD</h1>
                     <p class="font-bold text-[16px] text-white  text-center mb-7">Organize across all <br>
                         apps by hand</p>
-                        <div>
-                            <div class="flex gap-6 items-center justify-center">
-                                <h1 class="text-[40px] font-bold text-[#23A6F0]">9.99</h1>
-                                <div>
-                                    <p class="text-[16px] text-[#23A6F0] font-semibold">$</p>
-                                    <p class="text-[16px] text-[#8EC2F2] font-semibold">Per Month</p>
+                    <div>
+                        <div class="flex gap-6 items-center justify-center">
+                            <h1 class="text-[40px] font-bold text-[#23A6F0]">9.99</h1>
+                            <div>
+                                <p class="text-[16px] text-[#23A6F0] font-semibold">$</p>
+                                <p class="text-[16px] text-[#8EC2F2] font-semibold">Per Month</p>
 
-                                </div>
                             </div>
-                            <div class="flex gap-4 items-center mb-5 text-white">
-                                <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
-                                <p class="text-[14px] font-semibold">Unlimited product updates</p>
-                            </div>
-                             <div class="flex gap-4 items-center mb-5 text-white">
-                                <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
-                                <p class="text-[14px] font-semibold">Unlimited product updates</p>
-                            </div> 
-                             <div class="flex gap-4 items-center mb-5 text-white">
-                                <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
-                                <p class="text-[14px] font-semibold">Unlimited product updates</p>
-                            </div>
-                             <div class="flex gap-4 items-center mb-5 text-white">
-                                <img src="./images/icn-circle circle-xs mute.png" alt="">
-                                <p class="text-[14px] font-semibold">1GB  Cloud storage</p>
-                            </div>
-                             <div class="flex gap-4 items-center text-white">
-                                <img src="./images/icn-circle circle-xs mute.png" alt="">
-                                <p class="text-[14px] font-semibold">Email and community <br>
-                                    support</p>
-                            </div>
-                            <button class="w-[246px] h-[52px] rounded-[5px] text-white bg-[#23A6F0] mt-8">Try for free</button>
                         </div>
+                        <div class="flex gap-4 items-center mb-5 text-white">
+                            <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
+                            <p class="text-[14px] font-semibold">Unlimited product updates</p>
+                        </div>
+                        <div class="flex gap-4 items-center mb-5 text-white">
+                            <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
+                            <p class="text-[14px] font-semibold">Unlimited product updates</p>
+                        </div>
+                        <div class="flex gap-4 items-center mb-5 text-white">
+                            <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
+                            <p class="text-[14px] font-semibold">Unlimited product updates</p>
+                        </div>
+                        <div class="flex gap-4 items-center mb-5 text-white">
+                            <img src="./images/icn-circle circle-xs mute.png" alt="">
+                            <p class="text-[14px] font-semibold">1GB Cloud storage</p>
+                        </div>
+                        <div class="flex gap-4 items-center text-white">
+                            <img src="./images/icn-circle circle-xs mute.png" alt="">
+                            <p class="text-[14px] font-semibold">Email and community <br>
+                                support</p>
+                        </div>
+                        <button class="w-[246px] h-[52px] rounded-[5px] text-white bg-[#23A6F0] mt-8">Try for
+                            free</button>
+                    </div>
 
                 </div>
-                 <div class="w-[327px] h-[665px] p-10 rounded-[10px] bg-white border border-[#23A6F0]">
+                <div class="w-[327px] h-[665px] p-10 rounded-[10px] bg-white border border-[#23A6F0] lg:mb-0 mb-5">
                     <h1 class="text-2xl font-bold  text-center mb-6">PREMIUM</h1>
                     <p class="font-bold text-[16px] text-[#737373]  text-center mb-7">Organize across all <br>
                         apps by hand</p>
-                        <div>
-                            <div class="flex gap-6 items-center justify-center">
-                                <h1 class="text-[40px] font-bold text-[#23A6F0]">19.99</h1>
-                                <div>
-                                    <p class="text-[16px] text-[#23A6F0] font-semibold">$</p>
-                                    <p class="text-[16px] text-[#8EC2F2] font-semibold">Per Month</p>
+                    <div>
+                        <div class="flex gap-6 items-center justify-center">
+                            <h1 class="text-[40px] font-bold text-[#23A6F0]">19.99</h1>
+                            <div>
+                                <p class="text-[16px] text-[#23A6F0] font-semibold">$</p>
+                                <p class="text-[16px] text-[#8EC2F2] font-semibold">Per Month</p>
 
-                                </div>
                             </div>
-                            <div class="flex gap-4 items-center mb-5">
-                                <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
-                                <p class="text-[14px] font-semibold">Unlimited product updates</p>
-                            </div>
-                             <div class="flex gap-4 items-center mb-5">
-                                <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
-                                <p class="text-[14px] font-semibold">Unlimited product updates</p>
-                            </div> 
-                             <div class="flex gap-4 items-center mb-5">
-                                <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
-                                <p class="text-[14px] font-semibold">Unlimited product updates</p>
-                            </div>
-                             <div class="flex gap-4 items-center mb-5">
-                                <img src="./images/icn-circle circle-xs mute.png" alt="">
-                                <p class="text-[14px] font-semibold">1GB  Cloud storage</p>
-                            </div>
-                             <div class="flex gap-4 items-center">
-                                <img src="./images/icn-circle circle-xs mute.png" alt="">
-                                <p class="text-[14px] font-semibold">Email and community <br>
-                                    support</p>
-                            </div>
-                            <button class="w-[246px] h-[52px] rounded-[5px] text-white bg-[#23A6F0] mt-8">Try for free</button>
                         </div>
+                        <div class="flex gap-4 items-center mb-5">
+                            <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
+                            <p class="text-[14px] font-semibold">Unlimited product updates</p>
+                        </div>
+                        <div class="flex gap-4 items-center mb-5">
+                            <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
+                            <p class="text-[14px] font-semibold">Unlimited product updates</p>
+                        </div>
+                        <div class="flex gap-4 items-center mb-5">
+                            <img src="./images/icn-circle circle-xs secondary-color-1.png" alt="">
+                            <p class="text-[14px] font-semibold">Unlimited product updates</p>
+                        </div>
+                        <div class="flex gap-4 items-center mb-5">
+                            <img src="./images/icn-circle circle-xs mute.png" alt="">
+                            <p class="text-[14px] font-semibold">1GB Cloud storage</p>
+                        </div>
+                        <div class="flex gap-4 items-center">
+                            <img src="./images/icn-circle circle-xs mute.png" alt="">
+                            <p class="text-[14px] font-semibold">Email and community <br>
+                                support</p>
+                        </div>
+                        <button class="w-[246px] h-[52px] rounded-[5px] text-white bg-[#23A6F0] mt-8">Try for
+                            free</button>
+                    </div>
 
                 </div>
             </div>
-            
+
         </div>
 
     </section>
     <section class="sec6">
-        <div class="w-full bg-[#252B42] h-[257px]">
-            <div class="w-[72%] m-auto flex justify-between items-center pt-14">
-            <div class="" >
-              <h1 class="text-white text-[40px] font-bold">Get In Touch</h1>
-              <p class="text-white text-[14px] font-medium">The gradual accumulation of information about atomic and <br>
-                 small-scale behaviour during the first quarter of the 20th </p>
-                 </div>
-                 <div class="w-[386px] h-[58px] rounded-[5px] border border-[#E6E6E6] bg-white">
-                    <input class="pl-5" type="email" placeholder="Your Email">
-                    <button class="bg-[#23A6F0] text-white text-[14px] w-[117px] h-[58px] ml-15 rounded-tr-[5px] rounded-br-[5px]">Subscribe</button>
+        <div class="w-full bg-[#252B42] lg:h-[257px] h-auto">
+            <div class="w-[72%] m-auto lg:flex justify-between items-center pt-14 lg:pb-0 pb-12">
+                <div class="">
+                    <h1 class="text-white text-[40px] font-bold">Get In Touch</h1>
+                    <p class="text-white text-[14px] font-medium lg:inline hidden">The gradual accumulation of
+                        information about atomic and <br>
+                        small-scale behaviour during the first quarter of the 20th </p>
+                </div>
+                <div class="lg:w-[386px] w-full h-[58px] rounded-[5px] border border-[#E6E6E6] bg-white flex">
+                    <input class="lg:pl-5 pl-0" type="email" placeholder="Your Email">
+                    <button
+                        class="bg-[#23A6F0] text-white lg:text-[14px] text-[12px] lg:w-[117px] w-[84px] h-[58px] lg:ml-15 rounded-tr-[5px] rounded-br-[5px] ">Subscribe</button>
 
-                 </div>
-                 </div>
+                </div>
+            </div>
         </div>
     </section>
     <footer class="footer">
-        <div class="w-[72%] m-auto flex justify-between mt-16 mb-20">
-            <div class="">
+        <div class="w-[72%] m-auto lg:flex justify-between mt-16 mb-20">
+            <div class="lg:mb-0 mb-5">
                 <h1 class="text-2xl font-bold mb-3">Get In Touch</h1>
                 <p class="text-[14px] font-medium mb-5">the quick fox jumps over the <br>
-                  lazy dog</p>
-                  
-                  <img src="./images/social media (1).png" alt="">
-                  
+                    lazy dog</p>
+
+                <img src="./images/social media (1).png" alt="">
+
 
             </div>
-             <div class="">
+            <div class="lg:mb-0 mb-5">
                 <h1 class="text-2xl font-bold mb-3">Company info</h1>
                 <p class="text-[14px] font-medium">About Us</p>
                 <p class="text-[14px] font-medium">Carrier</p>
                 <p class="text-[14px] font-medium">We are hiring</p>
                 <p class="text-[14px] font-medium">Blog</p>
-                 
+
 
             </div>
-            <div class="">
+            <div class="lg:mb-0 mb-5">
                 <h1 class="text-2xl font-bold mb-3">Features</h1>
                 <p class="text-[14px] font-medium">Business Marketing</p>
                 <p class="text-[14px] font-medium">User Analytic</p>
                 <p class="text-[14px] font-medium">Live Chat</p>
                 <p class="text-[14px] font-medium">Unlimited Support</p>
-                  
+
 
             </div>
-             <div class="">
+            <div class="lg:mb-0 mb-5">
                 <h1 class="text-2xl font-bold mb-3">Resources</h1>
                 <p class="text-[14px] font-medium">IOS & Android</p>
                 <p class="text-[14px] font-medium">Watch a Demo</p>
@@ -459,7 +500,7 @@
                 <p class="text-[14px] font-medium">API</p>
 
             </div>
-            
+
         </div>
         <div class="w-full bg-[#FAFAFA] h-[76px]">
             <p class="text-[14px] text-[#737373] text-center pt-5">Made With Love By Figmaland All Right Reserved </p>
@@ -467,4 +508,5 @@
         </div>
     </footer>
 </body>
+
 </html>
